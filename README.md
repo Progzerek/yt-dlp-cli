@@ -1,4 +1,4 @@
-# yt-dl
+# yt-dlp-cli
 
 A simple command-line YouTube downloader written in Rust. Wraps [yt-dlp](https://github.com/yt-dlp/yt-dlp) with an interactive CLI so you don't have to remember flags.
 
