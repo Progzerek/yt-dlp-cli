@@ -1,17 +1,17 @@
-# yt-dl
+# yt-dlp-cli
 
 A simple command-line YouTube downloader written in Rust. Wraps [yt-dlp](https://github.com/yt-dlp/yt-dlp) with an interactive CLI so you don't have to remember flags.
 
 ## Features
 
-- Download YouTube videos or extract audio only (m4a)
+- Download YouTube videos (mkv) or extract audio only (m4a)
 - Custom output folder, with your Downloads folder as default
 - Loop — download multiple videos without restarting
 - No Python required (uses standalone yt-dlp)
 
 ## Requirements
 
-- [yt-dlp standalone exe](https://github.com/yt-dlp/yt-dlp/releases) — download `yt-dlp.exe` and place it in the same folder as `yt-dl.exe`
+- [yt-dlp standalone exe](https://github.com/yt-dlp/yt-dlp/releases) — download `yt-dlp-cli.exe` and place it in the same folder as `yt-dlp-cli.exe`
 
 ## Setup
 
@@ -19,7 +19,7 @@ A simple command-line YouTube downloader written in Rust. Wraps [yt-dlp](https:/
 
 1. Download `yt-dl.exe` from the [releases page](../../releases)
 2. Download `yt-dlp.exe` from the [yt-dlp releases page](https://github.com/yt-dlp/yt-dlp/releases) and place it in the same folder
-3. Run `yt-dl.exe`
+3. Run `yt-dlp-cli.exe`
 
 ### Option 2 — Build from source
 
@@ -27,9 +27,9 @@ A simple command-line YouTube downloader written in Rust. Wraps [yt-dlp](https:/
    ```
    cargo build --release
    ```
-2. Copy `target/release/yt-dl.exe` to a folder of your choice
+2. Copy `target/release/yt-dlp-cli.exe` to a folder of your choice
 3. Download `yt-dlp.exe` from the [yt-dlp releases page](https://github.com/yt-dlp/yt-dlp/releases) and place it in the same folder
-4. Run `yt-dl.exe`
+4. Run `yt-dlp-cli.exe`
 
 ## Usage
 
@@ -45,4 +45,4 @@ Audio only? (y/n): y
 
 ## License
 
-MIT
+MIT - license
