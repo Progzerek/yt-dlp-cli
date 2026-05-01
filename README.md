@@ -4,7 +4,7 @@ A simple command-line YouTube downloader written in Rust. Wraps [yt-dlp](https:/
 
 ## Features
 
-- Download YouTube videos or extract audio only (m4a)
+- Download YouTube videos (mkv) or extract audio only (m4a)
 - Custom output folder, with your Downloads folder as default
 - Loop — download multiple videos without restarting
 - No Python required (uses standalone yt-dlp)
@@ -45,4 +45,4 @@ Audio only? (y/n): y
 
 ## License
 
-MIT
+MIT - license
