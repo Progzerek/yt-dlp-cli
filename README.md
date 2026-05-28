@@ -18,7 +18,7 @@ A simple command-line YouTube downloader written in Rust. Wraps [yt-dlp](https:/
 ### Option 1 — Download the release (recommended)
 
 1. Download `yt-dlp-cli.exe` from the [releases page](../../releases)
-2. Download `yt-dlp.exe` from the [yt-dlp releases page](https://github.com/yt-dlp/yt-dlp/releases) and place it in the same folder
+2. Download `yt-dlp` standalone binary from the [yt-dlp releases page](https://github.com/yt-dlp/yt-dlp/releases) and place it in the same folder
 3. Run `yt-dlp-cli.exe`
 
 ### Option 2 — Build from source
